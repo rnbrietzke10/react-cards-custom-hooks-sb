@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export const useFlip = (initialState = true) => {
   const [isFacingUp, setIsFacingUp] = useState(initialState);
